@@ -182,7 +182,7 @@ function createReleaseCard(release) {
     const isSelected = selectedRelease && selectedRelease.id === release.id;
     
     const card = document.createElement('div');
-    card.className = `release-card ${isSelected ? 'selected' : ''}`;
+    card.className = `release-card category-${release.category.toLowerCase()} ${isSelected ? 'selected' : ''}`;
     card.setAttribute('data-id', release.id);
     
     // Highlight matching query in description content

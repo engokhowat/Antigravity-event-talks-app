@@ -385,6 +385,14 @@ body {
     background-color: rgba(66, 133, 244, 0.02);
 }
 
+.release-card.category-feature { border-left: 4px solid var(--color-feature); }
+.release-card.category-change { border-left: 4px solid var(--color-change); }
+.release-card.category-announcement { border-left: 4px solid var(--color-announcement); }
+.release-card.category-breaking { border-left: 4px solid var(--color-breaking); }
+.release-card.category-issue { border-left: 4px solid var(--color-issue); }
+.release-card.category-general { border-left: 4px solid var(--color-general); }
+
+
 /* Checkbox overlay */
 .card-checkbox {
     display: flex;
